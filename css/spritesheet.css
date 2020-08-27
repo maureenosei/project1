@@ -1,0 +1,161 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-blue-bars {
+    width: 93px;
+    height: 74px;
+    background-position: -5px -5px;
+}
+
+.sprite-blue-chat {
+    width: 84px;
+    height: 74px;
+    background-position: -108px -5px;
+}
+
+.sprite-blue-dash {
+    width: 80px;
+    height: 74px;
+    background-position: -202px -5px;
+}
+
+.sprite-blue-notes {
+    width: 86px;
+    height: 74px;
+    background-position: -5px -89px;
+}
+
+.sprite-blue-tag {
+    width: 97px;
+    height: 74px;
+    background-position: -101px -89px;
+}
+
+.sprite-blue-team {
+    width: 94px;
+    height: 74px;
+    background-position: -208px -89px;
+}
+
+.sprite-checkbox {
+    width: 22px;
+    height: 22px;
+    background-position: -292px -5px;
+}
+
+.sprite-emptycheck {
+    width: 18px;
+    height: 18px;
+    background-position: -324px -5px;
+}
+
+.sprite-github {
+    width: 30px;
+    height: 30px;
+    background-position: -292px -37px;
+}
+
+.sprite-gmail {
+    width: 30px;
+    height: 30px;
+    background-position: -312px -77px;
+}
+
+.sprite-graygear {
+    width: 23px;
+    height: 20px;
+    background-position: -312px -117px;
+}
+
+.sprite-green-bars {
+    width: 93px;
+    height: 74px;
+    background-position: -5px -173px;
+}
+
+.sprite-green-chat {
+    width: 84px;
+    height: 74px;
+    background-position: -108px -173px;
+}
+
+.sprite-green-dash {
+    width: 80px;
+    height: 74px;
+    background-position: -202px -173px;
+}
+
+.sprite-green-notes {
+    width: 86px;
+    height: 74px;
+    background-position: -5px -257px;
+}
+
+.sprite-green-tag {
+    width: 97px;
+    height: 74px;
+    background-position: -101px -257px;
+}
+
+.sprite-green-team {
+    width: 94px;
+    height: 74px;
+    background-position: -208px -257px;
+}
+
+.sprite-leftarrow {
+    width: 26px;
+    height: 22px;
+    background-position: -312px -147px;
+}
+
+.sprite-linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: -292px -179px;
+}
+
+.sprite-mini-of-raleigh {
+    width: 118px;
+    height: 33px;
+    background-position: -352px -5px;
+}
+
+.sprite-rightarrow {
+    width: 29px;
+    height: 22px;
+    background-position: -352px -48px;
+}
+
+.sprite-stackoverflow {
+    width: 30px;
+    height: 30px;
+    background-position: -391px -48px;
+}
+
+.sprite-topgear {
+    width: 45px;
+    height: 33px;
+    background-position: -431px -48px;
+}
+
+.sprite-topquestion {
+    width: 46px;
+    height: 33px;
+    background-position: -352px -91px;
+}
+
+.sprite-tumblr {
+    width: 30px;
+    height: 30px;
+    background-position: -408px -91px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: -408px -131px;
+}

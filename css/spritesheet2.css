@@ -1,0 +1,53 @@
+.spritex {
+    background-image: url(spritesheet2.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.spritex-blue-person {
+    width: 27px;
+    height: 22px;
+    background-position: -5px -5px;
+}
+
+.spritex-customer-back {
+    width: 64px;
+    height: 34px;
+    background-position: -42px -5px;
+}
+
+.spritex-gray-circle {
+    width: 26px;
+    height: 24px;
+    background-position: -5px -49px;
+}
+
+.spritex-gray-person {
+    width: 27px;
+    height: 22px;
+    background-position: -41px -49px;
+}
+
+.spritex-green-bulb {
+    width: 24px;
+    height: 41px;
+    background-position: -78px -49px;
+}
+
+.spritex-green-check {
+    width: 26px;
+    height: 39px;
+    background-position: -116px -5px;
+}
+
+.spritex-green-circle {
+    width: 26px;
+    height: 23px;
+    background-position: -112px -54px;
+}
+
+.spritex-green-paper {
+    width: 24px;
+    height: 41px;
+    background-position: -5px -87px;
+}

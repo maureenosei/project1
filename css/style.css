@@ -1,0 +1,519 @@
+/* TABLE OF CONTENTS */
+
+/*HEADER*/
+
+.heading{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    background-image: linear-gradient(#2497F2, #1E89DF);
+    background-color: #1E89DF;
+    height: 6vh; 
+    color: white;
+}
+#headingcontent { 
+    display: flex;
+    margin-right: 8vw;
+}
+
+/*-------------------------------------*/
+
+
+
+/* NAVIGATION BAR */
+
+.container1 {
+    display: flex;
+    justify-content: center;
+   /* background-image: linear-gradient(#134671, #144A78);*/
+    background-color: #134671;
+    padding-left: 20vw;
+    padding-right: 20vw; 
+    height: 20vh;
+    align-items: center;
+
+}
+
+#one { 
+    height: 10vh;
+    /*background-color: silver;
+    margin: 5vh;*/ 
+}
+
+#one :hover { 
+    background: url('spritesheet.png') -202px -5px;
+}
+
+#two { 
+    height: 10vh;
+    /*background-color: silver;
+    margin: 5vh;*/ 
+}
+
+#two :hover { 
+    background: url('spritesheet.png') -208px -89px;
+}
+
+#three { 
+    height: 10vh;
+    /*background-color: silver;
+    margin: 5vh;*/
+}
+
+#three :hover { 
+    background: url('spritesheet.png') -108px -5px;
+}
+
+#four { 
+    height: 10vh;
+    /*background-color: silver;
+    margin: 5vh;*/ 
+}
+
+#four :hover { 
+    background: url('spritesheet.png') -101px -89px;
+}
+
+#five { 
+    height: 10vh;
+    /*background-color: silver;
+    margin: 5vh;*/ 
+}
+
+#five :hover { 
+    background: url('spritesheet.png') -5px -89px;
+}
+
+#six { 
+    height: 10vh;
+    /*background-color: silver;
+    margin: 5vh;*/ 
+}
+
+#six :hover { 
+    background: url('spritesheet.png')-5px -5px;
+}
+
+
+/*-------------------------------------*/
+
+/* DASHBOARD */
+
+.greencont { 
+    background-color: #34CC66; 
+    color: white;
+    font-family: myriad-pro, sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    padding-top:5px; 
+    margin-top: 3vh; 
+    margin-bottom: 3vh; ;
+    height: 10vh;
+  
+}
+input[type="text"] { 
+    width: 18vw;
+    background-image: url('searchicon.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 1px;
+    padding: 2px;
+    border: thin;
+    border-color: darkgreen;
+    background-color: #F4F4F4;
+ 
+}
+
+#rightgreen { 
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+/*-------------------------------------*/
+
+/* ANNOUNCEMENTS */
+
+.announce-row { 
+    padding: 12px; 
+    background-color: white;
+    border-width: .5px !important; 
+}
+
+.announce-head { 
+    font-family: myriad-pro, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: #fe7f13;
+}
+
+.announce-text { 
+
+    font-family: myriad-pro, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #777777;
+
+}
+
+.announce-buttons { 
+    display: flex;
+}
+
+/*-------------------------------------*/
+
+/* TASKS */
+
+.tasks {
+    border-width: .5px !important; 
+    padding: 1px; 
+     
+}
+
+.task-head {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 10px; 
+    align-items: center;    
+}
+
+#taskheading{
+    flex: 9; 
+    color: #2498f4;
+    font-family: myriad-pro, sans-serif;
+    text-indent: 5px;
+}
+
+.taskgear {
+    flex: 1; 
+    padding-top: 10px; 
+    
+}
+
+.task-list {
+    font-family: myriad-pro, sans-serif;
+
+} 
+h3 {
+    font-size: 32px;
+}
+.item-two {
+    display: flex; 
+    height: 10vh;
+    justify-content: space-around;
+    text-align: left;
+    background: white;
+
+
+}
+
+.item-number { 
+  
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    flex: 1;
+}
+
+.dot {
+    height: 24px;
+    width: 24px;
+    background-color: #32cc66;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -20px;
+
+  }
+
+  .item-badge { 
+      border: grey;
+      border-width: 1px;
+      flex:2;
+      margin-right: -5px;
+      color: #2498f3;
+      justify-content: space-evenly;
+      height: 5vh;
+      justify-items: center;
+      width: 2vw; 
+      border-radius: 3px;
+
+
+  }
+
+
+.item-icon { 
+      display: flex;
+  }
+
+.cusnum {
+ font-size: 18px; 
+ display: flex;
+ margin-top: 15px;
+
+ }
+
+.item-text { 
+      font-size: 21px;
+      flex: 9;
+      color: #2498f3; 
+      height:6vh;
+  }
+  hr.task { 
+      margin-top: 1px; 
+      color: lightgray;
+      border-width: 1px;
+  }
+
+
+/*-------------------------------------*/
+
+/* RECOMMENDATIONS */
+
+#recheading { 
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding-left: 10px; 
+    align-items: center; 
+    color: #2498f4;
+    font-family: myriad-pro, sans-serif;
+    text-indent: 5px;
+}
+
+.item-three { 
+    padding: 10px;
+    padding-bottom: 8px; ; 
+}
+
+.rec-icon { 
+    display: flex;
+    margin-right: 10px; ;
+}
+.smalltext {
+    color: #999999;
+    font-family: myriad-pro, sans-serif;
+    font-size: 10px; ;
+}
+.largertext { 
+    color: #777777; 
+    font-family: myriad-pro, sans-serif;
+    font-size: 16px; 
+}
+.rec-text { 
+    line-height: 2%;
+}
+
+hr.rec { 
+    border-top: dotted; 
+    margin-top: 1px; 
+    color: lightgray; 
+    border-width: .5px;
+}
+
+/*-------------------------------------*/
+ /* ANALYTICS */
+
+ #analytics-head { 
+     padding: 10px;
+     margin-top: 1vh;
+     text-indent: 1vw;
+     font-family: myriad-pro, sans-serif;
+     color: #2498f4; 
+ }
+
+ .graph-cont { 
+    border: black
+
+}
+
+.graph-header{ 
+    height: 5vh; 
+
+}
+
+#activityhead { 
+    text-indent: 15px; 
+    font-size: 13px;
+    color: #999999;
+    height: 5vh; ;
+    padding-top: 1vh; 
+}
+
+#imagegraph {
+    height: 40vh; 
+    width: 44vw; 
+    margin-top: 3vh;
+    border: gray;
+    border-width: 10px; 
+   
+}
+
+#piecharts { 
+    height: 45vh; 
+    background-color: darkolivegreen;
+    margin-top: 3vh;
+    margin-left: 3vw; 
+
+}
+
+/*-------*/
+/* CHECKBOXES */
+
+.checkboxes { 
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 5vh; 
+   
+    font-family: myriad-pro, sans-serif;
+    font-size: 12px; 
+    padding-top: 1vh; 
+}
+
+#test { 
+    flex: 1; 
+    margin-left: 1vw; 
+    margin-right: 2vw; 
+
+}
+
+
+hr.activity { 
+    width: 100%
+}
+/*-------*/
+/* CUSTOMERS AND CONTACTS */
+
+#images2 { 
+    display: flex; 
+    justify-content: space-around;
+
+}
+.imagecard { 
+    background-color: white;
+    border: grey; 
+    border-radius: 10px ;
+    height: 35vh; 
+    width: 18vw; 
+    margin: 25px;
+    z-index: 1;
+}
+
+.card-person { 
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
+    margin-top: -5vh; 
+    z-index: 1;
+}
+.card-text { 
+    background: #2498f4;
+    height: 8vh; 
+    text-align: center;
+    line-height: 10px; ;
+    color: white;
+    font-family: myriad-pro, sans-serif;
+}
+.card-graph {
+    text-align: center;
+    margin: 3vh;  
+}
+.floatleft { 
+    float: left; 
+}
+.floatright { 
+    float: right; 
+}
+
+
+/*------------------------------------------*/
+
+/* DID YOU KNOW */
+
+.textbox1 { 
+    height: 30vh; 
+    background-color: #2498f4;
+    margin: 15px; 
+    text-align: center; 
+    border-radius: 5px;
+}
+#dyk-text { 
+    width: 80%;
+    padding:35px;
+    margin-left: 20px; 
+    text-align: left; 
+    color: white; 
+}
+.dyk-left { 
+    float: left;
+    padding-top: 8%;
+    
+
+}
+.dyk-right { 
+    float: right;
+    padding-top: 8%;
+}
+
+/*------------------------------------------*/
+
+
+
+
+.container2 { 
+    background-color: white;
+    border-width: .5px !important; 
+    height: 175vh;
+    
+
+}
+.bottomimg { 
+    background-color: #2498f3;
+    height: 35vh; 
+    margin-bottom: 20vh;
+}
+
+.footer { 
+    background-color: grey;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+
+#datebutton { 
+    flex: 1;
+}
+#activityhead { 
+    flex: 5;
+}
+
+.graphs { 
+    display: flex;
+    height: 30vh;
+  
+}
+
+
+
+i {
+    cursor: pointer;
+}
+
+
+
+
+/* IGNORE DELETE LATER 
+
+<i class="spritex spritex-blue-person"></i>
+<i class="spritex spritex-customer-back"></i>
+<i class="spritex spritex-gray-circle"></i>
+<i class="spritex spritex-gray-person"></i>
+<i class="spritex spritex-green-bulb"></i>
+<i class="spritex spritex-green-check"></i>
+<i class="spritex spritex-green-circle"></i>
+<i class="spritex spritex-green-paper"></i>
+
+*/
