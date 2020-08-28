@@ -20,18 +20,19 @@
 
 
 
-    <title>Hello, world!</title>
+    <title>CSS Extreme</title>
 </head>
 
 <body>
-
+    <!--HEADER-->
     <div class="container-fluid heading">
         <div id="headingcontent">
-            <i class="sprite sprite-mini-of-raleigh"></i>
+            <p id="mini">MINI of Raleigh</p>
             <i class="sprite sprite-topquestion"></i>
             <i class="sprite sprite-topgear"></i>
         </div>
     </div>
+    <!--NAVIGATION BAR-->
 
     <div class="container-fluid container1">
 
@@ -56,36 +57,48 @@
 
 
     </div>
-
+    <!--DASHBOARD-->
     <div class="container greencont">
         <div class="row">
             <div class="col" id="leftgreen">
                 <h2>Dashboard</h2>
             </div>
+
             <div class="col" id="rightgreen">
+                <div id="button-cont">
+                    <input type="button" name="button" value="           " class="button1" />
+                </div>
                 <form>
                     <input type="text" name="search" placeholder="">
                 </form>
+
             </div>
         </div>
     </div>
 
+    <!--MAIN CONTAINER-->
 
-    <div class="container container2">
+
+    <div class="container container2 border">
+
+        <!--ANNOUNCEMENTS-->
         <div class="row">
-            <div class="col-2 border announce-row announce-head">ANNOUNCEMENTS</div>
-            <div class="col-9 border announce-row announce-text">Sociis natoque penatibus et magnis dis parturient
+            <div class="col-md-2 border announce-row announce-head">ANNOUNCEMENTS</div>
+            <div class="col-md-9 border announce-row announce-text">Sociis natoque penatibus et magnis dis parturient
                 montes, nascetur
                 ridiculus mus. Vivamus sagittis lacus
             </div>
-            <div class="col-1 border announce-row announce-buttons">
+            <div class="col-md-1 border announce-row announce-buttons">
                 <i class="sprite sprite-leftarrow"></i>
                 <i class="sprite sprite-rightarrow"></i>
 
             </div>
         </div>
+        <!---->
+
+        <!--TASKS-->
         <div class="row">
-            <div class="col-4 border tasks">
+            <div class="col-lg-4 border tasks">
                 <div class="task-head">
                     <h3 id="taskheading">Tasks</h3>
                     <i class="sprite sprite-graygear taskgear"></i>
@@ -102,11 +115,9 @@
 
                         <div class="item-badge d-flex flex-row border align-items-center">
                             <div class="item-icon d-flex">
-                                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person-fill"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                                </svg>
+                                <div class="person-icon">
+                                    <i class="spritex spritex-blue-person"></i>
+                                </div>
                             </div>
                             <p class="cusnum">32</p>
 
@@ -125,11 +136,9 @@
 
                         <div class="item-badge d-flex flex-row border align-items-center">
                             <div class="item-icon d-flex">
-                                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person-fill"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                                </svg>
+                                <div class="person-icon">
+                                    <i class="spritex spritex-blue-person"></i>
+                                </div>
                             </div>
                             <p class="cusnum">36</p>
 
@@ -147,11 +156,9 @@
 
                         <div class="item-badge d-flex flex-row border align-items-center">
                             <div class="item-icon d-flex">
-                                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person-fill"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                                </svg>
+                                <div class="person-icon">
+                                    <i class="spritex spritex-blue-person"></i>
+                                </div>
                             </div>
                             <p class="cusnum">36</p>
 
@@ -169,11 +176,9 @@
 
                         <div class="item-badge d-flex flex-row border align-items-center">
                             <div class="item-icon d-flex">
-                                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person-fill"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                                </svg>
+                                <div class="person-icon">
+                                    <i class="spritex spritex-blue-person"></i>
+                                </div>
                             </div>
                             <p class="cusnum"> &nbsp;&nbsp;3</p>
 
@@ -182,10 +187,11 @@
                     </li>
                 </ul>
                 <hr class="task">
+                <!------->
 
 
 
-
+                <!--RECOMMENDATIONS-->
                 <h3 id="recheading"> Recommendations</h3>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item d-flex flew-row align-items-center item-three list-group-item-action">
@@ -237,20 +243,21 @@
 
                 <hr class="rec">
             </div>
-
-            <div class="col-8 border">
+            <!------>
+            <!--ANALYTICS-->
+            <div class="col-lg-8 border">
                 <h3 id="analytics-head">Analytics</h3>
                 <div class="container">
                     <div class="row">
-                        <div class="col-9 graph-cont">
+                        <div class="col-lg-9 graph-cont">
                             <div class="graph-header d-flex flew-row">
                                 <p id="activityhead">ACTIVITY</p>
                                 <div class="btn-group" id="datebutton">
-                                    <button class="btn btn-secondary btn-sm" type="button">
-                                        08/21/20
+                                    <button class="btn btn-secondary btn-sm btn2" type="button">
+                                        06/28/11 - 07/21/11
                                     </button>
                                     <button type="button"
-                                        class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                                        class="btn btn-sm btn3 btn-secondary dropdown-toggle dropdown-toggle-split"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <span class="sr-only">Toggle Dropdown</span>
                                     </button>
@@ -268,7 +275,7 @@
                         </div>
 
 
-                        <div class="col-3">
+                        <div class="col-lg-3 pie-col">
 
                             <div id="piecharts">
                                 <img src="assets/images/images/pie-graph.png" alt="Pie Chart" width="100%"
@@ -280,6 +287,9 @@
                     </div>
 
                 </div>
+                <!-------->
+
+                <!--CHECKBOXES-->
 
                 <div class="checkboxes d-flex flew-row">
 
@@ -304,64 +314,75 @@
                 </div>
                 <hr class="activity">
 
+                <!--CONTACTS AND CUSTOMERS CARDS-->
 
-                <div id="images2">
-                    <div class="imagecard border d-flex flex-column">
-                        <div class="card-person">
-                            <img src="assets/images/images/green-person.png" alt="a green person figure">
+                <div id="container images2">
+                    <div class="row">
+                        <div class="col-lg imagecard border d-flex flex-column">
+                            <div class="card-person">
+                                <img src="assets/images/images/green-person.png" alt="a green person figure">
+
+                            </div>
+                            <div class="card-text">
+                                <img src="assets/images/images/imgs_14.png" class="floatleft">
+                                <img src="assets/images/images/imgs_18.png" class="floatright">
+
+                                <div class="inner-text">
+                                    <p id=top-text>75 CONTACTS</p>
+                                    <p id="bottom-text">4 INFLUENCERS</p>
+                                </div>
+
+                            </div>
+                            <div class="card-graph border">
+                                <img src="assets/images/images/green-line.png " alt="green line graph" width=100%;>
+                            </div>
 
                         </div>
-                        <div class="card-text">
-                            <img src="assets/images/images/imgs_14.png" class="floatleft">
-                            <img src="assets/images/images/imgs_18.png" class="floatright">
+                        <div class="col-lg imagecard d-flex flex-column border">
+                            <div class="card-person">
+                                <img src="assets/images/images/orange-person.png" alt="a orange person figure">
 
-                            <p>75 CONTACTS</p>
-                            <p>4 INFLUENCERS</p>
+                            </div>
+                            <div class="card-text">
+                                <img src="assets/images/images/imgs_14.png" class="floatleft">
+                                <img src="assets/images/images/imgs_18.png" class="floatright">
+                                <div class="inner-text">
+                                    <p id=top-text>75 CONTACTS</p>
+                                    <p id="bottom-text">4 INFLUENCERS</p>
+                                </div>
+                            </div>
+                            <div class="card-graph border">
+                                <img src="assets/images/images/orange-line.png " alt="orange line graph" width=100%;>
+                            </div>
                         </div>
-                        <div class="card-graph border">
-                            <img src="assets/images/images/green-line.png " alt="green line graph" width=100%;>
-                        </div>
-
-                    </div>
-                    <div class="imagecard d-flex flex-column border">
-                        <div class="card-person">
-                            <img src="assets/images/images/orange-person.png" alt="a orange person figure">
-
-                        </div>
-                        <div class="card-text">
-                            <img src="assets/images/images/imgs_14.png" class="floatleft">
-                            <img src="assets/images/images/imgs_18.png" class="floatright">
-                            <p>17 CUSTOMERS</p>
-                            <p>0 INFLUENCERS</p>
-                        </div>
-                        <div class="card-graph border">
-                            <img src="assets/images/images/orange-line.png " alt="orange line graph" width=100%;>
-                        </div>
-
                     </div>
                 </div>
                 <hr>
-                <div class="textbox1">
-                    <img src="assets/images/images/arrowleft.png" class="dyk-left">
-                    <img src="assets/images/images/arrow-right.png" class="dyk-right">
-                    <p id="dyk-text">DID YOU KNOW?<br>
-                        Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+                <div class="container">
+                    <div class="row"></div>
+                    <div class="textbox1">
+                        <img src="assets/images/images/arrowleft.png" class="dyk-left">
+                        <img src="assets/images/images/arrow-right.png" class="dyk-right">
+                        <p id="dyk-text">DID YOU KNOW?<br>
+                            Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+                    </div>
                 </div>
             </div>
-
         </div>
 
     </div>
+
+    </div>
     <div class="container">
-        <div class="row bottom-cont d-flex flex-row ">
-            <div class="white-card">
+        <div class="row bottom-cont ">
+            <div class="col-lg white-card">
                 <img src="assets/images/images/watch.png">
             </div>
-            <div class="white-card">
+            <div class="col-lg white-card">
                 <img src="assets/images/images/people.png">
             </div>
-            <div class="white-card">
+            <div class="col-lg white-card">
                 <img src="assets/images/images/version.png">
             </div>
 
@@ -372,13 +393,13 @@
 
     <div class="container-fluid footer">
         <div class="row">
-            <div class="col-3">
+            <div class="col-md-3">
                 Tutorials Support Blog
             </div>
-            <div class="col-5">
+            <div class="col-md-5">
                 Ariel Winter likes your Win A Cooper Sweepstakes Promotion
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 Logout
             </div>
         </div>
