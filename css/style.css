@@ -442,7 +442,15 @@ hr.activity {
 #images2 { 
     display: flex; 
     justify-content: space-evenly;
+    flex-direction: row;
 
+}
+.outside-card { 
+    width: 18vw; 
+    height: 40vh;
+    margin: 10vh; 
+    align-items: center;
+    justify-content: center;
 }
 .imagecard { 
     background-color: white;
