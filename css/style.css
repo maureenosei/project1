@@ -48,7 +48,7 @@
 }
 
 #one :hover { 
-    background: url('spritesheet.png') -202px -5px;
+    background: url('spritesheet.png') -202px -173px;
 }
 
 #two { 
@@ -58,7 +58,7 @@
 }
 
 #two :hover { 
-    background: url('spritesheet.png') -208px -89px;
+    background: url('spritesheet.png') -208px -257px;
 }
 
 #three { 
@@ -68,7 +68,7 @@
 }
 
 #three :hover { 
-    background: url('spritesheet.png') -108px -5px;
+    background: url('spritesheet.png') -108px -173px;
 }
 
 #four { 
@@ -78,7 +78,7 @@
 }
 
 #four :hover { 
-    background: url('spritesheet.png') -101px -89px;
+    background: url('spritesheet.png') -101px -257px;
 }
 
 #five { 
@@ -88,7 +88,7 @@
 }
 
 #five :hover { 
-    background: url('spritesheet.png') -5px -89px;
+    background: url('spritesheet.png') -5px -257px;
 }
 
 #six { 
@@ -98,7 +98,7 @@
 }
 
 #six :hover { 
-    background: url('spritesheet.png')-5px -5px;
+    background: url('spritesheet.png')-5px -173px;
 }
 
 
@@ -584,9 +584,7 @@ hr.activity {
 
 }
 #version-img {
-    width: 100%;
-    height: fit-content;
-    z-index: 1;
+    
 }
  /*------------------------------------------*/
 
@@ -651,7 +649,6 @@ i {
         padding: 5vh; ; 
         height: 90%;
         
-    
     }
     
     #piecharts { 
@@ -677,6 +674,8 @@ i {
         margin: 6vh; 
         height: 30%;
     }
+
+ 
   }
 
 
