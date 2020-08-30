@@ -595,9 +595,10 @@ hr.activity {
     font-family: myriad-pro, sans-serif;
     background-color: #F4F4F4;
     position: relative;
-    height: 8vh;
+    height: 7vh;
     left: 0;
     bottom: 0;
+
 }
 
 .footer-right {
@@ -605,17 +606,24 @@ hr.activity {
     color: rgb(129, 129, 129);
     display: flex;
     padding-left: 8vw; 
+    align-items: center; 
 }
 .footer-middle { 
     justify-content: space-between;
     color: rgb(61, 61, 61);
+    align-items: center; 
 }
 .footer-left { 
-   
+    align-items: center; 
 }
 .socials{
     margin-left: 50px; 
+    width: 10vw; 
 }
+
+a.footer-link { 
+    text-decoration: none;
+    font-weight: bold;}
  /*------------------------------------------*/
 
 
