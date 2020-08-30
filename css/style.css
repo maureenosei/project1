@@ -387,12 +387,15 @@ hr.rec {
 }
 
 #activityhead { 
+    flex: 5;
     text-indent: 15px; 
     font-size: 13px;
     color: #999999;
     height: 5vh; ;
     padding-top: 1vh; 
 }
+
+
 
 #imagegraph {
     height: 40vh; 
@@ -457,8 +460,7 @@ hr.activity {
     border: grey; 
     box-shadow: 1px 2px lightgray;
     border-radius: 10px ;
-    height: 40vh; 
-    width: 18vw; 
+    padding: 5px; 
     margin: 10vh;
     z-index: 1;
 }
@@ -551,24 +553,46 @@ hr.activity {
 
 }
 
-.white-card { 
+.white-card {
     background: white; 
     border-radius: 5px;
     z-index: 2;
     height: 28vh; 
-    width: 23vw; 
     margin: 5vh; 
     justify-content: center;
     box-shadow: 1px 2px #C4C4C4;
 }
 
+#watch-img {
+   margin-left: -15px;
+   border-radius: 5px;
+   z-index: 1;
 
+}
+#people-img {
+    margin-top: -10px; 
+    z-index: 1;
 
+}
+.leftimg {
+    display: flex;
+    flex-flow: row-reverse;
+    margin-right: -15px;
+    margin-bottom: -10px;
+    z-index: 1;
+
+}
+#version-img {
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+}
  /*------------------------------------------*/
 
  /* FOOTER */
 
  .footer { 
+    font-family: myriad-pro, sans-serif;
     background-color: #F4F4F4;
     position: relative;
     height: 8vh;
@@ -576,22 +600,28 @@ hr.activity {
     bottom: 0;
 }
 
+.footer-right {
+    font-weight: lighter;
+    color: rgb(129, 129, 129);
+    display: flex;
+    padding-left: 8vw; 
+}
+.footer-middle { 
+    justify-content: space-between;
+    color: rgb(61, 61, 61);
+}
+.footer-left { 
+   
+}
+.socials{
+    margin-left: 50px; 
+}
  /*------------------------------------------*/
 
 
  /* EXTRAS */
- 
- #datebutton { 
-    flex: 1;
-}
-#activityhead { 
-    flex: 5;
-}
 
-.graphs { 
-    display: flex;
-    height: 30vh; 
-}
+
 
 i {
     cursor: pointer;
