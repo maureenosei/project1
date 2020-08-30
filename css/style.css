@@ -595,7 +595,6 @@ hr.activity {
     font-family: myriad-pro, sans-serif;
     background-color: #F4F4F4;
     position: relative;
-    height: 7vh;
     left: 0;
     bottom: 0;
 
@@ -619,7 +618,11 @@ hr.activity {
 .socials{
     margin-left: 50px; 
     width: 10vw; 
+    margin-top: 0; 
+    justify-content: center;
+   
 }
+
 
 a.footer-link { 
     text-decoration: none;
