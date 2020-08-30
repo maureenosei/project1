@@ -381,24 +381,18 @@ hr.rec {
 
 }
 
-.graph-header{ 
-    height: 5vh; 
-
-}
 
 #activityhead { 
     flex: 5;
     text-indent: 15px; 
     font-size: 13px;
     color: #999999;
-    height: 5vh; ;
     padding-top: 1vh; 
 }
 
 
 
 #imagegraph {
-    height: 40vh; 
     width: 44vw; 
     margin-top: 3vh;
     border: gray;
@@ -407,7 +401,6 @@ hr.rec {
 }
 
 #piecharts { 
-    height: 45vh; 
     background-color: darkolivegreen;
     margin-top: 3vh;
     margin-left: 3vw; 
@@ -448,13 +441,7 @@ hr.activity {
     flex-direction: row;
 
 }
-.outside-card { 
-    width: 18vw; 
-    height: 40vh;
-    margin: 10vh; 
-    align-items: center;
-    justify-content: center;
-}
+
 .imagecard { 
     background-color: white;
     border: grey; 
@@ -515,7 +502,6 @@ hr.activity {
 /* DID YOU KNOW */
 
 .textbox1 { 
-    height: 30vh; 
     background-color: #2498f4;
     margin: 15px; 
     text-align: center; 
@@ -546,7 +532,6 @@ hr.activity {
     display: flex; 
     flex-direction: row;
     background-color: #2498f3;
-    height: 38vh; 
     margin-bottom: 20vh;
     z-index: 1;
     justify-content: space-around;
@@ -557,7 +542,6 @@ hr.activity {
     background: white; 
     border-radius: 5px;
     z-index: 2;
-    height: 28vh; 
     margin: 5vh; 
     justify-content: center;
     box-shadow: 1px 2px #C4C4C4;
