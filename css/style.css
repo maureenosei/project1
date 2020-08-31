@@ -771,12 +771,50 @@ i {
    }
 
     #version-img { 
-
         height: 125%;
-
     }
-
  
   }
 
+  @media screen and (max-width: 440px) {
 
+    .checkboxes { 
+        width:100%; 
+    }
+    #facebook {
+        width: 20%;
+        margin-top:10px; 
+        margin-bottom: 5px; 
+
+
+    }
+     #foursquare {
+            width: 20%;
+            margin-top:10px; 
+            margin-bottom: 5px; 
+
+
+    }
+    #twitter {
+        width: 20%;
+        margin-top:10px; 
+        margin-bottom: 5px; 
+
+    }
+    #google {
+        width: 20%;
+        margin-top:10px; 
+        margin-bottom: 5px; 
+
+    }
+
+    .leftimg { 
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+
+    .btn2 { 
+        width: 20vw; 
+    }
+
+  }
