@@ -776,6 +776,8 @@ i {
  
   }
 
+  /* MOBILE PHONE */
+
   @media screen and (max-width: 440px) {
 
     .checkboxes { 
