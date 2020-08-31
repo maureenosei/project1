@@ -41,14 +41,25 @@
 
 }
 
+
 #one { 
     height: 10vh;
     /*background-color: silver;
     margin: 5vh;*/ 
 }
 
-#one :hover { 
+a#one :hover { 
     background: url('spritesheet.png') -202px -173px;
+}
+
+a#one :visited {
+    background: url('spritesheet.png') -202px -173px;
+
+}
+
+a#one :active {
+    background: url('spritesheet.png') -202px -173px;
+
 }
 
 #two { 
@@ -244,6 +255,8 @@ h3 {
 
 }
 
+
+
 .item-number { 
   
     text-align: center;
@@ -415,19 +428,70 @@ hr.rec {
 .checkboxes { 
     display: flex;
     width: 90%;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 5vh; 
-   
     font-family: myriad-pro, sans-serif;
     font-size: 12px; 
     padding-top: 1vh; 
 }
 
+/*--*/
 #test { 
-    flex: 1; 
-    margin-left: 1vw; 
-    margin-right: 2vw; 
+    display: none; 
 
+}
+
+.checker { 
+    background-image: url(emptycheck.png);
+    background-size: auto 100%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+#test:checked + .checker {
+    background-image: url(checkbox.png);
+    width: 20px; 
+    height: 20px;
+    background-image: no-repeat;
+  }
+/*--*/
+
+#facebook { 
+    width:10%;
+    height:fit-content;
+    margin-left: -30px;
+    padding-left: 5px; 
+    background:#114570;
+    color: white; 
+    border-radius: 5px;
+}
+#foursquare { 
+    width:11%;
+    height:fit-content;
+    margin-left: -30px;
+    padding-left: 5px; 
+    background:#3a599b;
+    color: white; 
+    border-radius: 5px;
+}
+#twitter { 
+    width:10%;
+    height:fit-content;
+    margin-left: -30px;
+    padding-left: 5px; 
+    background:#2298f4;
+    color: white; 
+    border-radius: 5px;
+}
+#google { 
+    width:10%;
+    height:fit-content;
+    margin-left: -30px;
+    padding-left: 5px; 
+    background:#31cc66;
+    color: white; 
+    border-radius: 5px;
 }
 
 
@@ -435,6 +499,7 @@ hr.activity {
     width: 100%
 }
 /*-------*/
+
 /* CUSTOMERS AND CONTACTS */
 
 #images2 { 
@@ -519,7 +584,6 @@ hr.activity {
 .dyk-left { 
     float: left;
     padding-top: 8%;
-    
 
 }
 .dyk-right { 
@@ -578,12 +642,14 @@ hr.activity {
 .leftimg {
     display: flex;
     flex-flow: row-reverse;
-    margin-right: -15px;
+    margin-right: -14px;
     margin-bottom: -10px;
     z-index: 1;
 
 }
 #version-img {
+    width: 100%;
+    
     
 }
  /*------------------------------------------*/
@@ -605,7 +671,14 @@ hr.activity {
     display: flex;
     padding-left: 8vw; 
     align-items: center; 
+    justify-content: space-between;
 }
+
+.footer-right :hover {
+    color: #2498f3; 
+    cursor: pointer;
+}
+
 .footer-middle { 
     justify-content: space-between;
     color: rgb(61, 61, 61);
@@ -620,6 +693,9 @@ hr.activity {
     margin-top: 0; 
     justify-content: center;
    
+}
+img.footerimg :hover {
+    cursor: pointer;
 }
 
 
@@ -643,6 +719,8 @@ i {
 
 
 @media screen and (max-width: 1050px) {
+
+    
 
     #imagegraph { 
         width: 100%;

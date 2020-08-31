@@ -36,23 +36,23 @@
 
     <div class="container-fluid container1">
 
-        <span id="one">
-            <i class="sprite sprite-blue-dash"></i>
-        </span>
+        <a href="#" id="one">
+            <i class="sprite sprite-blue-dash navicon"> </i>
+        </a>
         <span id="two">
-            <i class="sprite sprite-blue-team"></i>
+            <i class="sprite sprite-blue-team navicon"></i>
         </span>
         <span id='three'>
-            <i class="sprite sprite-blue-chat"></i>
+            <i class="sprite sprite-blue-chat navicon"></i>
         </span>
         <span id="four">
-            <i class="sprite sprite-blue-tag"></i>
+            <i class="sprite sprite-blue-tag navicon"></i>
         </span>
         <span id="five">
-            <i class="sprite sprite-blue-notes"></i>
+            <i class="sprite sprite-blue-notes navicon"></i>
         </span>
         <span id="six">
-            <i class="sprite sprite-blue-bars"></i>
+            <i class="sprite sprite-blue-bars navicon"></i>
         </span>
 
 
@@ -103,8 +103,9 @@
                     <h3 id="taskheading">Tasks</h3>
                     <i class="sprite sprite-graygear taskgear"></i>
                 </div>
-                <ul class="list-group list-group-flush task-list">
-                    <li class="list-group-item item-two d-flex flew-row align-items-center list-group-item-action">
+                <div class="list-group list-group-flush task-list">
+                    <a href="#"
+                        class="list-group-item item-two d-flex flew-row align-items-center list-group-item-action ">
 
                         <div class="item-number">
                             <span class="dot">1</span>
@@ -123,9 +124,10 @@
 
                         </div>
 
-                    </li>
+                    </a>
 
-                    <li class="list-group-item item-two d-flex flew-row align-items-center list-group-item-action">
+                    <a href="#"
+                        class="list-group-item item-two d-flex flew-row align-items-center list-group-item-action">
 
                         <div class="item-number">
                             <span class="dot">2</span>
@@ -144,8 +146,9 @@
 
                         </div>
 
-                    </li>
-                    <li class="list-group-item item-two d-flex flew-row align-items-center list-group-item-action">
+                    </a>
+                    <a href="#"
+                        class="list-group-item item-two d-flex flew-row align-items-center list-group-item-action">
 
                         <div class="item-number">
                             <span class="dot">3</span>
@@ -164,8 +167,9 @@
 
                         </div>
 
-                    </li>
-                    <li class="list-group-item item-two d-flex flew-row align-items-center list-group-item-action">
+                    </a>
+                    <a href="#"
+                        class="list-group-item item-two d-flex flew-row align-items-center list-group-item-action">
 
                         <div class="item-number">
                             <span class="dot">4</span>
@@ -184,8 +188,8 @@
 
                         </div>
 
-                    </li>
-                </ul>
+                    </a>
+                </div>
                 <hr class="task">
                 <!------->
 
@@ -262,7 +266,9 @@
                                         <span class="sr-only">Toggle Dropdown</span>
                                     </button>
                                     <div class="dropdown-menu">
-                                        ...
+                                        <a class="dropdown-item" href="#">05/27/11 - 06/28/11</a>
+                                        <a class="dropdown-item" href="#">06/28/11 - 07/21/11</a>
+                                        <a class="dropdown-item" href="#">06/28/11 - 07/21/11</a>
                                     </div>
                                 </div>
                             </div>
@@ -293,24 +299,28 @@
 
                 <div class="checkboxes d-flex flew-row">
 
-                    <p>
-                        <input type="checkbox" id="test" />
-                        <label for="test1">Facebook </label>
-                    </p>
-                    <p>
-                        <input type="checkbox" id="test" />
-                        <label for="test2">Twitter</label>
-                    </p>
-                    <p>
-                        <input type="checkbox" id="test" />
-                        <label for="test3">Foursquare</label>
-                    </p>
-                    <p>
-                        <input type="checkbox" id="test" />
-                        <label for="test4">Google +</label>
-                    </p>
 
+                    <input type="checkbox" id="test" />
+                    <label for="test" class="checker"> </label>
+                    <div id="facebook">
+                        Facebook
+                    </div>
 
+                    <input type="checkbox" id="test" />
+                    <label for="test" class="checker"></label>
+                    <div id="twitter">
+                        Twitter
+                    </div>
+                    <input type="checkbox" id="test" />
+                    <label for="test" class="checker"></label>
+                    <div id="foursquare">
+                        Foursquare
+                    </div>
+                    <input type="checkbox" id="test" />
+                    <label for="test" class="checker"></label>
+                    <div id="google">
+                        Google +
+                    </div>
                 </div>
                 <hr class="activity">
 
@@ -360,11 +370,14 @@
                     </div>
                 </div>
                 <hr>
+                <!-- DID YOU KNOW -->
                 <div class="container">
                     <div class="row"></div>
                     <div class="textbox1">
-                        <img src="assets/images/images/arrowleft.png" class="dyk-left">
-                        <img src="assets/images/images/arrow-right.png" class="dyk-right">
+                        <a href="#">
+                            <img src="assets/images/images/arrowleft.png" class="dyk-left"> </a>
+                        <a href="#">
+                            <img src="assets/images/images/arrow-right.png" class="dyk-right"> </a>
                         <p id="dyk-text">DID YOU KNOW?<br>
                             Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
@@ -378,18 +391,26 @@
     </div>
     <div class="container">
         <div class="row bottom-cont ">
+
             <div class="col-lg white-card">
-                <img id="watch-img" src="assets/images/images/oops_03.png">
+                <a href=#>
+                    <img id="watch-img" src="assets/images/images/oops_03.png"> </a>
             </div>
+
+
             <div class="col-lg white-card">
-                <div class="green-caption">See what others are doing with us.</div>
-                <img id="people-img" src="assets/images/images/people.png">
+                <a href=#>
+                    <div class="green-caption">See what others are doing with us.</div>
+                    <img id="people-img" src="assets/images/images/people.png">
+                </a>
             </div>
             <div class="col-lg white-card">
                 <div class="leftimg">
-                    <img id="version-img" src="assets/images/images/blah_05.png">
+                    <a href=#>
+                        <img id="version-img" src="assets/images/images/blah_05.png"> </a>
                 </div>
             </div>
+
 
         </div>
     </div>
@@ -399,7 +420,7 @@
     <div class="container-fluid footer">
         <div class="row">
             <div class="col-lg-3 footer-right d-flex flex-row border">
-                Tutorials | Support | Blog
+                Tutorials &nbsp; |&nbsp; Support &nbsp;|&nbsp; Blog
             </div>
             <div class="col-lg-5 footer-middle d-flex flex-row border">
                 <a href=# class=footer-link> Ariel Winter</a> likes your <a href=# class="footer-link"> Win A Cooper
@@ -408,8 +429,8 @@
                     width="35px">
             </div>
             <div class="col-lg-4 footer-left d-flex flex-row border">
-                <img src="assets/images/images/footerimg.png" alt="small profile picture icon"> <a href=#
-                    class="footer-link"> Logout</a>
+                <img class="footerimg" src="assets/images/images/footerimg.png" alt="small profile picture icon"> <a
+                    href=# class="footer-link"> Logout</a>
 
                 <img class="socials" src="assets/images/images/socials.png" alt="social media links">
 

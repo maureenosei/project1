@@ -159,3 +159,81 @@
     height: 30px;
     background-position: -408px -131px;
 }
+
+/* Change these */ 
+
+@media screen and (max-width: 1050px) {
+    
+    .sprite-green-bars {
+        width: 73px;
+        height: 54px;
+        background-position: -5px -173px;
+    }
+    
+    .sprite-green-chat {
+        width: 73px;
+        height: 54px;
+        background-position: -108px -173px;
+    }
+    
+    .sprite-green-dash {
+        width: 73px;
+        height: 54px;
+        background-position: -202px -173px;
+    }
+    
+    .sprite-green-notes {
+        width: 73px;
+        height: 54px;
+        background-position: -5px -257px;
+    }
+    
+    .sprite-green-tag {
+        width: 73px;
+        height: 54px;
+        background-position: -101px -257px;
+    }
+    
+    .sprite-green-team {
+        width: 73px;
+        height: 54px;
+        background-position: -208px -257px;
+    }
+    .sprite-blue-bars {
+    width: 73px;
+    height: 54px;
+    background-position: -5px -5px;
+}
+
+.sprite-blue-chat {
+    width: 64px;
+    height: 54px;
+    background-position: -108px -5px;
+}
+
+.sprite-blue-dash {
+    width: 70px;
+    height: 54px;
+    background-position: -202px -5px;
+}
+
+.sprite-blue-notes {
+    width: 66px;
+    height: 54px;
+    background-position: -5px -89px;
+}
+
+.sprite-blue-tag {
+    width: 77px;
+    height: 54px;
+    background-position: -101px -89px;
+}
+
+.sprite-blue-team {
+    width: 74px;
+    height: 54px;
+    background-position: -208px -89px;
+}
+
+}
+
