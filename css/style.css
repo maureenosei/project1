@@ -47,20 +47,11 @@
     /*background-color: silver;
     margin: 5vh;*/ 
 }
-
-a#one :hover { 
+#one:visited,
+#one :hover { 
     background: url('spritesheet.png') -202px -173px;
 }
 
-a#one :visited {
-    background: url('spritesheet.png') -202px -173px;
-
-}
-
-a#one :active {
-    background: url('spritesheet.png') -202px -173px;
-
-}
 
 #two { 
     height: 10vh;
@@ -405,6 +396,15 @@ hr.rec {
     height: 3vh;
 }
 
+.leftarrow :hover {
+    transform: scale(1.15);
+
+}
+.rightarrow :hover {
+    transform: scale(1.15);
+
+}
+
 
 
 #imagegraph {
@@ -438,8 +438,8 @@ hr.rec {
 /*--*/
 #test { 
     display: none; 
-
 }
+
 
 .checker { 
     background-image: url(emptycheck.png);
@@ -494,7 +494,6 @@ hr.rec {
     border-radius: 5px;
 }
 
-
 hr.activity { 
     width: 100%
 }
@@ -545,9 +544,6 @@ hr.activity {
 #bottom-text { 
     font-size: 11px; 
 }
-
-
-
 
 .card-graph {
     text-align: center;
@@ -746,26 +742,41 @@ i {
         justify-content: center;
     
     }
-/* Comment */ 
     .imagecard { 
         width: 80%;
         margin: 6vh; 
         height: 30%;
     }
 
+    .checkboxes { 
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #top-text { 
+        padding-top: 2vh; ; 
+    }
+   #bottom-text { 
+       margin-bottom: -2px; 
+   }
+
+   .leftimg {
+    display: flex;
+    flex-flow: row;
+    height: 80%;
+    z-index: 1;
+   }
+
+    #version-img { 
+
+        height: 125%;
+
+    }
+
  
   }
 
 
-/* IGNORE DELETE LATER 
-
-<i class="spritex spritex-blue-person"></i>
-<i class="spritex spritex-customer-back"></i>
-<i class="spritex spritex-gray-circle"></i>
-<i class="spritex spritex-gray-person"></i>
-<i class="spritex spritex-green-bulb"></i>
-<i class="spritex spritex-green-check"></i>
-<i class="spritex spritex-green-circle"></i>
-<i class="spritex spritex-green-paper"></i>
-
-*/
